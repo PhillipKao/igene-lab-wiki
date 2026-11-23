@@ -1,0 +1,105 @@
+{
+  "run_at": "2026-11-23T12:05:02Z",
+  "target": "presentations/ecs-teaching-slides/",
+  "status": "PASS",
+  "layout_preflight": [
+    {
+      "id": "LAYOUT-01",
+      "name": ".slide-head 允許換行（防窄螢幕頁首溢位）",
+      "passed": true,
+      "detail": "Found `flex-wrap: wrap` in `.slide-head`"
+    },
+    {
+      "id": "LAYOUT-02",
+      "name": "行動版 @media 內 .slide-head 直向堆疊（防 Logo 右緣裁切）",
+      "passed": true,
+      "detail": "Mobile @media stacks `.slide-head` via `flex-direction: column`"
+    },
+    {
+      "id": "LAYOUT-03",
+      "name": "行動版底部保留間距 >= 88px（防固定控制列遮擋頁尾）",
+      "passed": true,
+      "detail": "Mobile `.deck-shell` bottom padding = 96px (>= 88px)"
+    },
+    {
+      "id": "LAYOUT-04",
+      "name": "11 頁結構與所有本機圖檔／連結路徑有效",
+      "passed": true,
+      "detail": "Slides=11, broken_refs=0"
+    }
+  ],
+  "keyboard_interaction_preflight": [
+    {
+      "id": "KEY-01",
+      "name": "靜態檢查：G 鍵目錄切換未被 modal-open 守衛阻擋",
+      "passed": true,
+      "detail": "'g' handler offset (221) precedes modal-open guard (326)"
+    },
+    {
+      "id": "KEY-02",
+      "name": "靜態檢查：輸入框聚焦時略過全域快捷鍵（防搜尋誤翻頁）",
+      "passed": true,
+      "detail": "Input/Textarea/Select focus guard present"
+    },
+    {
+      "id": "KEY-03",
+      "name": "JavaScriptCore 模擬事件驗證（G 雙向開關 / Esc / Input 防誤觸 / 左右翻頁）",
+      "passed": true,
+      "detail": "{\"initialHidden\": true, \"afterFirstG_open\": true, \"afterSecondG_closed\": true, \"afterEsc_closed\": true, \"arrowInInputBlocked\": true, \"arrowRightAdvances\": true, \"arrowLeftRetreats\": true}"
+    }
+  ],
+  "round1_regression_detection_proof": {
+    "simulated_round1_caught_ids": [
+      "LAYOUT-01",
+      "LAYOUT-02",
+      "LAYOUT-03",
+      "KEY-01",
+      "KEY-03"
+    ],
+    "all_3_round1_bugs_caught": true,
+    "details": [
+      {
+        "id": "LAYOUT-01",
+        "name": ".slide-head 允許換行（防窄螢幕頁首溢位）",
+        "passed": false,
+        "detail": "Missing `flex-wrap: wrap` in `.slide-head`"
+      },
+      {
+        "id": "LAYOUT-02",
+        "name": "行動版 @media 內 .slide-head 直向堆疊（防 Logo 右緣裁切）",
+        "passed": false,
+        "detail": "Missing mobile `.slide-head { flex-direction: column; }` rule (risk of 390px logo clipping)"
+      },
+      {
+        "id": "LAYOUT-03",
+        "name": "行動版底部保留間距 >= 88px（防固定控制列遮擋頁尾）",
+        "passed": false,
+        "detail": "Mobile `.deck-shell` bottom padding = 76px (< 88px; fixed controls may overlap footer)"
+      },
+      {
+        "id": "LAYOUT-04",
+        "name": "11 頁結構與所有本機圖檔／連結路徑有效",
+        "passed": true,
+        "detail": "Slides=11, broken_refs=0"
+      },
+      {
+        "id": "KEY-01",
+        "name": "靜態檢查：G 鍵目錄切換未被 modal-open 守衛阻擋",
+        "passed": false,
+        "detail": "'g' handler (282) appears after modal-open guard (217) — cannot close modal via G"
+      },
+      {
+        "id": "KEY-02",
+        "name": "靜態檢查：輸入框聚焦時略過全域快捷鍵（防搜尋誤翻頁）",
+        "passed": true,
+        "detail": "Input/Textarea/Select focus guard present"
+      },
+      {
+        "id": "KEY-03",
+        "name": "JavaScriptCore 模擬事件驗證（G 雙向開關 / Esc / Input 防誤觸 / 左右翻頁）",
+        "passed": false,
+        "detail": "{\"initialHidden\": true, \"afterFirstG_open\": true, \"afterSecondG_closed\": false, \"afterEsc_closed\": true, \"arrowInInputBlocked\": true, \"arrowRightAdvances\": true, \"arrowLeftRetreats\": true}"
+      }
+    ]
+  }
+}
