@@ -92,3 +92,19 @@
 
 - 初始化本機 Git Repository（主分支：`main`），建立 `.gitignore` 並於 `AGENTS.md` 增訂第 8 節 Git Workflow 規範（分支策略、Conventional Commits、待審頁面管控與資安／著作權防護）。
 - 安全與著作權檢查通過：無 API Keys、密碼或患者個資；第三方受版權或 CC BY-NC 4.0 限制之全文檔（`raw/sources/SRC-001.md` 至 `SRC-008.md`）保留於本機供 SHA-256 驗證但不納入 Git 追蹤，其餘 `raw/registry.json`、`raw/metadata/`、`raw/sources/SRC-009.md`、`raw/structured/`、`wiki/`、`logs/`、`assets/`、`workflows/` 與 `wiki_browser/` 均納入版控。
+
+---
+
+## [2026-11-23] Phase 2（工作分支 `content/ecs-teaching-slides`）：製作 11 頁初學者互動教學 HTML 簡報《ECS 是什麼？為什麼健康的父母也可能生下患有遺傳疾病的孩子？》
+
+- **Wiki-First 檢索**：實際讀取 14 份 Wiki／中繼資料檔案，完整記錄於 `logs/phase2/retrieval_log.md`（辨識 `GAP-01` 至 `GAP-04`）與 `logs/phase2/ecs_outline_source_map.md`。
+- **簡報建置與互動功能**：於 `presentations/ecs-teaching-slides/` 建置 11 頁 16:9 暖橘色互動教學簡報（`index.html`、`styles.css`、`app.js`、`igene_data.js`），內建 Punnett Square（支援 `AA`/`Aa`/`aa` 雙親互動）、X-linked 親代情境切換、真實 350 筆 `SRC-009` 疾病／基因即時搜尋（由 `workflows/build_ecs_slides_data.py` 自動編譯，含 351 獨立基因與 *FMR1* 未收錄揭露）與 5 題完整互動測驗。
+- **實機瀏覽器 QA 與修正重測**：完成桌面（`1280×800`）與行動（`390×844`）雙視窗實測；第一輪發現 3 項問題（行動版 Slide 7 頁首裁切、底部控制列間距偏緊、`G` 鍵僅開不關），修正後第二輪重測全數通過，完整證據留存於 `logs/phase2/content_validation_log.md` 與 `logs/phase2/html_test_log.md`。
+- **版本與審核控管**：本產出位於 `content/ecs-teaching-slides` 分支，維持 `pending_clinical_review` / `pending_technical_verification`，未合併至 `main`、未 Push、未啟用 GitHub Pages。
+
+---
+
+## [2026-11-23] Phase 2 Workflow 改進實作與 Reflection（分支 `content/ecs-teaching-slides`）
+
+- 依據 `logs/phase2/html_test_log.md` 之 3 項真實缺陷，實際實作並執行 `workflows/preflight_slides.py`（包含 `Layout Preflight` 4 項與 `Keyboard Interaction Preflight` 3 項，含 JavaScriptCore 無頭 DOM 模擬），實測現行簡報 `7/7 PASS`，並以 Round-1 舊條件還原驗證可提前攔截全部 3 項缺陷，結果留存於 `logs/phase2/preflight_report.md` 與 `logs/phase2/preflight_report.json`。
+- 產出課堂繳交版繁體中文報告 `docs/phase2_workflow_reflection.md`（嚴格依據 4 份 Phase 2 執行紀錄建立 Mermaid Graph、統計各節點實際失敗次數、分析 3 項真實案例、比較新舊 Workflow 差異並完成反思摘要）。

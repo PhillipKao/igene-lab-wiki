@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECS 是什麼？為什麼健康的父母也可能生下患有遺傳疾病的孩子？</title>
+  <link rel="icon" type="image/png" href="../../assets/biolove-2.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="deck-shell">
+    <main class="stage" id="stage" aria-live="polite">
+
+      <!-- SLIDE 1: COVER -->
+      <section class="slide slide-cover active" data-title="Slide 1：封面與教學目標">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Reproductive Genetics &amp; Laboratory Wiki · 10–15 分鐘互動教學</span>
+          <div class="head-right">
+            <span class="status-badge">⚠ 衛教教學草稿｜待臨床審核</span>
+          </div>
+        </div>
+        <div class="cover-grid">
+          <div>
+            <span class="cover-pill">初學者醫學衛教簡報 · Warm Orange Education</span>
+            <h1 class="cover-title"><span>ECS</span> 是什麼？<br />為什麼健康的父母也可能生下患有遺傳疾病的孩子？</h1>
+            <p class="cover-en">Expanded Carrier Screening: Understanding Hidden Genetic Risks</p>
+            <p class="cover-desc">
+              本簡報專為一般民眾與無遺傳學背景的初學者設計，帶您從「帶因者」概念出發，透過互動式棋盤、真實疾病基因檢索與觀念測驗，正確認識擴展性帶因者篩檢（ECS / iGene）的原理、範圍與限制。
+            </p>
+            <div class="chip-row">
+              <span class="chip">📚 Wiki 追溯：SRC-003 (ACMG 2021) / SRC-006 / SRC-009</span>
+              <span class="chip">🧮 內建 Punnett Square 互動</span>
+              <span class="chip">🧬 350 項 iGene 疾病／基因即時搜尋</span>
+              <span class="chip">✅ 5 題觀念互動測驗</span>
+            </div>
+          </div>
+          <div class="brand-card">
+            <img src="../../assets/biolove-5.png" alt="BiOLOVE 愛生育生物科技 — 明天的幸福・愛生育" />
+            <p>
+              <strong>知識來源：Persistent LLM Wiki</strong><br />
+              資料基準日：2026-11-23<br />
+              鍵盤 <code>←</code> <code>→</code> 切換｜<code>G</code> 目錄｜<code>F</code> 全螢幕
+            </p>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>分支：<code>content/ecs-teaching-slides</code>（僅供本機教學與人工審核）</span>
+          <span>本教材不取代醫師與遺傳諮詢師之個別醫療評估</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 2: WHAT IS A CARRIER? -->
+      <section class="slide" data-title="Slide 2：什麼是基因與帶因者（Carrier）？">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 02 · What Is a Carrier?</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>什麼是基因、遺傳變異與「無症狀帶因者（Carrier）」？</h2>
+        <p class="lead">每個細胞（除生殖細胞外）均含 23 對（46 條）染色體，成對基因分別來自父親與母親；這正是健康父母仍可能默默攜帶隱性遺傳風險的生物學原因 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</p>
+        <div class="slide-body">
+          <div class="grid-3" style="margin-bottom:10px;">
+            <div class="card card-top">
+              <h3>🧬 基因（Gene）與變異</h3>
+              <p>基因是構成染色體的 DNA 指令片段，負責指導身體運作。當單一基因出現影響功能的<strong>致病性變異（Pathogenic Variant）</strong>，即可能引發單基因遺傳疾病 <span class="cite">SRC-005</span> <span class="cite">SRC-009</span>。</p>
+            </div>
+            <div class="card card-top">
+              <h3>🧩 什麼是帶因者（Carrier）？</h3>
+              <p>在體染色體隱性遺傳中，成對的兩個等位基因裡<strong>僅有一個帶有致病變異、另一個為正常</strong>的個體，稱為帶因者（常記作 <code>Aa</code>）<span class="cite">SRC-003</span>。</p>
+            </div>
+            <div class="card card-brand">
+              <h3>🌿 為什麼帶因者通常沒症狀？</h3>
+              <p>另一條染色體上的<strong>正常基因副本（A）</strong>通常足以維持細胞正常功能，因此絕大多數隱性帶因者完全健康、家族中也從未出現過病史 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</p>
+            </div>
+          </div>
+          <div class="card card-soft" style="padding:10px 14px;">
+            <svg viewBox="0 0 820 90" width="100%" aria-label="成對基因與無症狀帶因者圖解">
+              <rect x="8" y="10" width="245" height="70" rx="12" fill="#ECF7EF" stroke="#225E38" stroke-width="1.5"/>
+              <text x="130" y="34" text-anchor="middle" font-size="13.5" font-weight="800" fill="#225E38">未帶因（AA）</text>
+              <text x="130" y="54" text-anchor="middle" font-size="11.5" fill="#352B25">兩份基因副本皆正常</text>
+              <text x="130" y="70" text-anchor="middle" font-size="11" fill="#6D6D70">健康、不具該基因隱性帶因風險</text>
+
+              <rect x="286" y="10" width="248" height="70" rx="12" fill="#FFF3E3" stroke="#E88A42" stroke-width="1.8"/>
+              <text x="410" y="34" text-anchor="middle" font-size="13.5" font-weight="800" fill="#B95F2B">無症狀帶因者（Aa）</text>
+              <text x="410" y="54" text-anchor="middle" font-size="11.5" fill="#352B25">1 份正常 + 1 份致病變異</text>
+              <text x="410" y="70" text-anchor="middle" font-size="11" fill="#6D6D70">本人通常健康，但可能傳給下一代</text>
+
+              <rect x="567" y="10" width="245" height="70" rx="12" fill="#FFEAE4" stroke="#B93516" stroke-width="1.5"/>
+              <text x="690" y="34" text-anchor="middle" font-size="13.5" font-weight="800" fill="#B93516">雙等位基因變異（aa）</text>
+              <text x="690" y="54" text-anchor="middle" font-size="11.5" fill="#352B25">同時遺傳自父母雙方的變異副本</text>
+              <text x="690" y="70" text-anchor="middle" font-size="11" fill="#B93516">可能表現該體染色體隱性遺傳疾病</text>
+            </svg>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>concepts/monogenic-disease.md</code>、<code>concepts/autosomal-recessive.md</code></span>
+          <span>Sources: SRC-003 (ACMG 2021), SRC-005, SRC-009</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: AUTOSOMAL RECESSIVE + INTERACTIVE PUNNETT SQUARE -->
+      <section class="slide" data-title="Slide 3：常染色體隱性遺傳與互動 Punnett Square">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 03 · Autosomal Recessive Inheritance（互動練習）</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>常染色體隱性遺傳：動手操作 Punnett Square 棋盤</h2>
+        <div class="slide-body">
+          <div class="grid-2-asym">
+            <div class="card card-brand">
+              <h3>🎛 切換親代基因型（預設標準案例：Aa × Aa）</h3>
+              <div class="punnett-controls">
+                <div class="punnett-select-group">
+                  <label for="parent-a">父：</label>
+                  <select id="parent-a" aria-label="選擇父親基因型">
+                    <option value="AA">AA（未帶因）</option>
+                    <option value="Aa" selected>Aa（帶因者）</option>
+                    <option value="aa">aa（雙變異）</option>
+                  </select>
+                </div>
+                <div class="punnett-select-group">
+                  <label for="parent-b">母：</label>
+                  <select id="parent-b" aria-label="選擇母親基因型">
+                    <option value="AA">AA（未帶因）</option>
+                    <option value="Aa" selected>Aa（帶因者）</option>
+                    <option value="aa">aa（雙變異）</option>
+                  </select>
+                </div>
+                <button class="preset-btn active" data-preset="Aa,Aa">Aa × Aa 雙帶因</button>
+                <button class="preset-btn" data-preset="Aa,AA">Aa × AA 單帶因</button>
+              </div>
+              <table class="punnett-table" id="punnett-table" aria-label="常染色體隱性遺傳 Punnett Square">
+                <thead>
+                  <tr>
+                    <th>配子組合</th>
+                    <th id="col-h1">母：A</th>
+                    <th id="col-h2">母：a</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th id="row-h1">父：A</th>
+                    <td class="punnett-cell" id="cell-00"></td>
+                    <td class="punnett-cell" id="cell-01"></td>
+                  </tr>
+                  <tr>
+                    <th id="row-h2">父：a</th>
+                    <td class="punnett-cell" id="cell-10"></td>
+                    <td class="punnett-cell" id="cell-11"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="card card-soft" style="display:flex;flex-direction:column;justify-content:space-between;">
+              <div>
+                <h3>📊 每次懷孕之理論子代基因型分布</h3>
+                <div class="ratio-bar" aria-hidden="true">
+                  <div class="ratio-seg seg-AA" id="bar-AA" style="width:25%"></div>
+                  <div class="ratio-seg seg-Aa" id="bar-Aa" style="width:50%"></div>
+                  <div class="ratio-seg seg-aa" id="bar-aa" style="width:25%"></div>
+                </div>
+                <div class="ratio-legend">
+                  <div class="ratio-pill geno-AA"><span id="pct-AA">25%</span> AA<br /><small>未帶因</small></div>
+                  <div class="ratio-pill geno-Aa"><span id="pct-Aa">50%</span> Aa<br /><small>帶因者</small></div>
+                  <div class="ratio-pill geno-aa"><span id="pct-aa">25%</span> aa<br /><small>雙變異（罹病風險）</small></div>
+                </div>
+                <p id="punnett-explain" style="margin-top:10px;"></p>
+              </div>
+              <div class="callout" style="margin-top:8px;">
+                <strong>模型前提標示：</strong>本互動僅適用於<strong>單基因常染色體隱性遺傳模型（Aa × Aa 等配對）下每次懷孕之理論基因型機率</strong>（不分胎兒性別，且每次懷孕各自獨立），<strong>不代表所有 ECS 疾病的實際臨床發病率</strong>，亦不適用 X-linked 或多因子遺傳 <span class="cite">SRC-003</span>。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>concepts/autosomal-recessive.md</code>、<code>products/ecs.md</code></span>
+          <span>Sources: SRC-003 (ACMG 2021), SRC-009 (iGene AR 佔 319 項)</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 4: X-LINKED INHERITANCE -->
+      <section class="slide" data-title="Slide 4：X-linked 性聯遺傳基本概念">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 04 · X-linked Inheritance（可切換親代情境）</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>X 染色體性聯遺傳：為什麼男女傳遞與風險不同？</h2>
+        <p class="lead">致病基因位於 X 性染色體上；因男性僅有一條 X（<code>XY</code>）、女性有兩條 X（<code>XX</code>），親代帶因來源不同會產生截然不同的子代傳遞機率 <span class="cite">SRC-003</span>。</p>
+        <div class="slide-body">
+          <div class="mode-tabs" role="tablist">
+            <button class="mode-btn active" data-xmode="mother">情境 A（ECS 核心）：母親為帶因者（X*X × XY）</button>
+            <button class="mode-btn" data-xmode="father">情境 B（對照）：父親帶變異 X（XX × X*Y）</button>
+          </div>
+          <div class="grid-2">
+            <div class="card card-brand" id="xlinked-diagram-card">
+              <!-- Populated by app.js -->
+            </div>
+            <div class="card card-soft" id="xlinked-text-card">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+          <div class="callout">
+            <strong>避免不當概括：</strong>X-linked 疾病涵蓋多種不同基因與機轉（ACMG 2021 列出 16 個建議基因；iGene 包含 28 個 XL 基因，含 <em>DMD</em>、<em>F8</em>、<em>F9</em>、<em>G6PD</em> 等）。<strong>女性帶因者並非全都無症狀</strong>（受 X 染色體去活化影響可能呈現輕重不等表型），且部分疾病具高比例新發突變，須由遺傳諮詢師依個別基因說明 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>concepts/x-linked-inheritance.md</code>（另記錄 GAP-02 父親傳遞補充）</span>
+          <span>Sources: SRC-003 (ACMG 2021), SRC-009</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 5: WHAT IS ECS? -->
+      <section class="slide" data-title="Slide 5：什麼是 ECS 擴展性帶因者篩檢？">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 05 · What Is ECS?</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>什麼是 ECS（Expanded Carrier Screening）？與傳統篩檢有何不同？</h2>
+        <div class="slide-body">
+          <div class="grid-2" style="margin-bottom:10px;">
+            <div class="card card-top">
+              <h3>🔍 檢測目的與定位</h3>
+              <ul>
+                <li>利用高通量基因定序（NGS），於<strong>孕前或孕早期</strong>一次同步篩檢數十至數百種體染色體隱性（AR）與 X 性聯（XL）單基因帶因狀態 <span class="cite">SRC-003</span>。</li>
+                <li>核心目的在於<strong>提早識別原本無家族史的高風險伴侶</strong>，讓伴侶在充分知情下保留最完整的自主生育選擇 <span class="cite">SRC-003</span>。</li>
+              </ul>
+            </div>
+            <div class="card card-brand">
+              <h3>🆚 與個別疾病／傳統族群篩檢之差異</h3>
+              <ul>
+                <li><strong>傳統篩檢：</strong>過去依自述種族僅篩檢少數特定疾病（如 Tay–Sachs、囊性纖維化 CF、脊髓性肌肉萎縮症 SMA）<span class="cite">SRC-003</span>。</li>
+                <li><strong>現代 ECS（ACMG 2021 分層）：</strong>改採<strong>族群中立（panethnic）</strong>設計；ACMG 建議向所有備孕及孕期族群提供 <strong>Tier 3</strong>（任一族群帶因率 ≥ 1/200 及 16 個 XL 基因），而非依賴種族推測 <span class="cite">SRC-003</span>。</li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid-4">
+            <div class="card card-soft"><strong>Tier 1</strong><p>CF、SMA ＋ 個人／家族史評估</p></div>
+            <div class="card card-soft"><strong>Tier 2</strong><p>帶因頻率 ≥ 1/100 之隱性疾病</p></div>
+            <div class="card card-brand"><strong>★ Tier 3（ACMG 建議）</strong><p>帶因頻率 ≥ 1/200 ＋ 16 個 XL 基因（族群中立提供）</p></div>
+            <div class="card card-soft"><strong>Tier 4</strong><p>&lt; 1/200 超罕見基因（保留於近親聯姻或明確家族史）</p></div>
+          </div>
+          <div class="callout">
+            <strong>為什麼建議在「孕前」優先考慮？</strong>ACMG 2021 指出孕前受檢比孕期壓力更小，且可保有所有生育選項（包含自然懷孕＋產前診斷、IVF 合併 PGT-M、配子受贈或領養）；已懷孕者亦可於孕早期討論 <span class="cite">SRC-003</span>。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>products/ecs.md</code>、<code>evidence/ecs-clinical-evidence.md</code></span>
+          <span>Source: SRC-003 (ACMG 2021 Practice Resource)</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 6: HOW DOES ECS WORK? -->
+      <section class="slide" data-title="Slide 6：ECS 檢測如何運作與實驗室規格邊界">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 06 · How Does ECS Work?</span>
+          <div class="head-right">
+            <span class="status-badge">⚙ 部分技術參數待驗證</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>ECS 怎麼做？從抽血到報告的五步驟與實驗室技術邊界</h2>
+        <div class="slide-body">
+          <div class="pipeline" aria-label="ECS 檢測五步驟流程">
+            <div class="pipe-step">
+              <span class="pipe-num">1</span>
+              <strong>檢體採集</strong>
+              <span>抽取周邊血液樣本並完成身分標示核對 <span class="cite">SRC-009</span></span>
+            </div>
+            <div class="pipe-step">
+              <span class="pipe-num">2</span>
+              <strong>DNA 分析萃取</strong>
+              <span>萃取白血球基因體 DNA 並進行品質確認 <span class="cite">SRC-009</span></span>
+            </div>
+            <div class="pipe-step">
+              <span class="pipe-num">3</span>
+              <strong>NGS 目標區間定序</strong>
+              <span>針對清單所列目標基因編碼與關鍵區進行高通量定序 <span class="cite">SRC-003</span></span>
+            </div>
+            <div class="pipe-step">
+              <span class="pipe-num">4</span>
+              <strong>變異判讀<br />(Variant Interpretation)</strong>
+              <span>生資分析比對致病性／可能致病性變異 <span class="cite">SRC-003</span></span>
+            </div>
+            <div class="pipe-step">
+              <span class="pipe-num">5</span>
+              <strong>帶因篩檢報告</strong>
+              <span>核發報告並搭配檢後遺傳諮詢與伴侶追蹤 <span class="cite">SRC-003</span></span>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card card-brand">
+              <h3>✅ 本實驗室已確認資訊（與一般原理區分）</h3>
+              <ul>
+                <li><strong>已確認定序技術：</strong>本實驗室採用 <strong>Thermo Fisher Scientific / Ion Torrent NGS</strong> 定序技術。</li>
+                <li><strong>已確認 ECS 晶片規格：</strong>ECS（iGene）採用 <strong><code>530</code>（Ion 530）晶片</strong>（與 PGT-A 採用之 <code>520</code> 晶片分開管理，不假定共用流程）。</li>
+                <li><strong>已確認產品與官方檢驗限制：</strong>對應 iGene 350 項疾病清單，採周邊血目標區間 NGS <span class="cite">SRC-009</span>。</li>
+              </ul>
+            </div>
+            <div class="card card-soft">
+              <h3>⚙ 尚未確認規格（Pending Technical Verification）</h3>
+              <ul>
+                <li><strong>不得自行宣稱或推定：</strong>具體 Ion Torrent 儀器型號、ECS 定序覆蓋深度（Coverage）、讀長（Read Length）、Low-VAF 偵測下限、各變異類型實測分析靈敏度／特異度、報告週期（TAT）及有效認證狀態（ISO 15189 / LDTs / CAP 等）。</li>
+                <li>以上待實驗室主管提供正式 Validation Report、SOP 與有效證書後方可補入，亦不以原廠一般性能代替實測值。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>laboratory/ngs-technology.md</code>、<code>products/ecs.md</code></span>
+          <span>Sources: SRC-003, SRC-009 + Lab Technical Verification (2026-11-23)</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 7: IGENE ECS PANEL + LIVE GENE SEARCH -->
+      <section class="slide" data-title="Slide 7：iGene ECS 篩檢範圍與即時疾病／基因搜尋">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 07 · iGene ECS Panel（350 項真實資料互動搜尋）</span>
+          <div class="head-right">
+            <span class="status-badge">product_spec_verified｜待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>iGene ECS 實際檢測範圍與即時疾病／基因查詢</h2>
+        <div class="slide-body" style="justify-content:flex-start;">
+          <div class="kpi-strip">
+            <div class="kpi-box"><b>350 種疾病</b><span>官網標示與實測擷取完全一致</span></div>
+            <div class="kpi-box"><b>351 個基因</b><span>去重獨立基因（含雙基因 <code>HBA1/HBA2</code>）</span></div>
+            <div class="kpi-box"><b>15 大分類</b><span>AR 319｜XL 28｜AR/AD 3 筆</span></div>
+            <div class="kpi-box"><b>28 個 XL 基因</b><span>不含重複擴增型 <em>FMR1</em>（見下方說明）</span></div>
+          </div>
+
+          <div class="search-controls">
+            <input type="search" id="gene-search-input" placeholder="搜尋中文病名、英文病名或 Gene Symbol（如 SMN1、HBA1、G6PD、地中海、CFTR）..." aria-label="搜尋 iGene 疾病或基因" />
+            <select id="gene-inh-filter" aria-label="依遺傳模式篩選">
+              <option value="">全部遺傳模式 (350)</option>
+              <option value="AR">AR — 體染色體隱性 (319)</option>
+              <option value="XL">XL — X 染色體性聯 (28)</option>
+              <option value="AR/AD">AR/AD — 隱性／顯性 (3)</option>
+            </select>
+            <select id="gene-cat-filter" aria-label="依 15 大分類篩選">
+              <option value="">全部 15 大疾病分類</option>
+            </select>
+          </div>
+
+          <div class="quick-gene-bar">
+            <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+              <span>快速試查：</span>
+              <button class="preset-btn" data-q="SMN1">SMN1</button>
+              <button class="preset-btn" data-q="HBA1">HBA1/HBA2</button>
+              <button class="preset-btn" data-q="G6PD">G6PD</button>
+              <button class="preset-btn" data-q="CFTR">CFTR</button>
+              <button class="preset-btn" data-q="DMD">DMD</button>
+              <button class="preset-btn" data-q="FMR1">FMR1 (確認未收錄)</button>
+              <button class="preset-btn" data-q="">重設</button>
+            </div>
+            <strong id="gene-result-count" style="color:#B95F2B;"></strong>
+          </div>
+
+          <div class="search-table-box">
+            <table class="gene-table" aria-label="iGene 350 項疾病與基因清單">
+              <thead>
+                <tr>
+                  <th style="width:42px;">#</th>
+                  <th>疾病名稱（中／英）</th>
+                  <th style="width:94px;">基因</th>
+                  <th style="width:68px;">遺傳模式</th>
+                  <th style="width:118px;">族群</th>
+                  <th style="width:92px;">帶因率</th>
+                  <th style="width:64px;">檢出率</th>
+                </tr>
+              </thead>
+              <tbody id="gene-table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="callout" style="margin-top:7px;padding:7px 11px;font-size:11.5px;">
+            <strong>透明揭露與限制：</strong>① <strong>350 種疾病 ≠ 350 個基因</strong>（甲型地貧同時含 <code>HBA1/HBA2</code>，共 351 個獨立基因）；② ACMG 建議之 <em>FMR1</em>（X 染色體脆折症）因屬三核苷酸重複擴增，<strong>未列於此 350 項 NGS 清單</strong>；③ 官網檢出率（76%–99%）非所有變異類型之統一分析敏感度 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>資料來源：<code>raw/structured/igene_disease_list.json</code>（擷取日期：2026-11-23）</span>
+          <span>Wiki 來源：<code>products/ecs-disease-gene-index.md</code></span>
+        </div>
+      </section>
+
+      <!-- SLIDE 8: WHO SHOULD CONSIDER TESTING? -->
+      <section class="slide" data-title="Slide 8：誰可以考慮帶因者篩檢？">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 08 · Who Should Consider Testing?</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>誰可以考慮接受帶因者篩檢？（情境式教學參考）</h2>
+        <p class="lead">ACMG 2021 強調帶因者篩檢是<strong>自願選項，並非所有人都「必須」接受</strong>；以下為門診常見會主動了解或討論的情境（不構成個人化醫療建議）<span class="cite">SRC-003</span> <span class="cite">SRC-009</span>：</p>
+        <div class="slide-body">
+          <div class="grid-2" style="margin-bottom:10px;">
+            <div class="card card-top">
+              <h3>🌱 情境 1：一般婚前與備孕伴侶</h3>
+              <p>無已知家族病史，但希望在懷孕前預先了解隱性與 X 性聯帶因風險。ACMG 建議以族群中立方式向所有備孕及孕期患者提供篩檢資訊，並尊重婉拒受檢的權利 <span class="cite">SRC-003</span>。</p>
+            </div>
+            <div class="card card-top">
+              <h3>🧬 情境 2：家族病史或近親聯姻伴侶</h3>
+              <p>血緣較近會增加雙方攜帶相同罕見隱性變異之機率；若家族已有確診疾病或曾生育異常子代，應由遺傳專科評估一般篩檢是否足夠或需針對性基因診斷 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</p>
+            </div>
+            <div class="card card-brand">
+              <h3>🔬 情境 3：計畫人工生殖（IVF）或精卵捐受贈</h3>
+              <p>進入 IVF 療程前完成評估，可確認是否需銜接客製化 PGT-M 或精卵捐受贈風險配對（ASRM 2023 提醒：不應僅為排除無症狀隱性帶因而執行 PGT-M）<span class="cite">SRC-006</span> <span class="cite">SRC-009</span>。</p>
+            </div>
+            <div class="card card-brand">
+              <h3>🤰 情境 4：已懷孕中且先前未篩檢者</h3>
+              <p>孕早期仍可自主考慮是否補測；若時程較緊，夫妻同步檢測可縮短等待報告時間，以利必要時及早進行遺傳諮詢與產前檢查討論 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</p>
+            </div>
+          </div>
+          <div class="callout">
+            <strong>自主知情原則：</strong>每位伴侶的生育規劃與價值觀皆不同；「要不要做 ECS」、「先驗一人還是夫妻同驗」，請在檢前與醫師或遺傳諮詢師充分討論後再自行決定 <span class="cite">SRC-003</span>。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>products/ecs.md</code>、<code>concepts/genetic-counseling.md</code></span>
+          <span>Sources: SRC-003 (ACMG 2021), SRC-006 (ASRM 2023), SRC-009</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 9: UNDERSTANDING RESULTS & RESIDUAL RISK -->
+      <section class="slide" data-title="Slide 9：看懂篩檢結果與 Residual Risk">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 09 · Understanding Results &amp; Residual Risk</span>
+          <div class="head-right">
+            <span class="status-badge">待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>看懂報告關鍵詞：陽性、陰性與「殘餘風險（Residual Risk）」</h2>
+        <div class="slide-body">
+          <div class="grid-2" style="margin-bottom:10px;">
+            <div class="card card-brand">
+              <h3>🟡 Carrier Detected（檢出帶因）</h3>
+              <ul>
+                <li><strong>不等同本人罹患疾病！</strong>多數體染色體隱性帶因者完全健康無症狀 <span class="cite">SRC-003</span>。</li>
+                <li><strong>Couple Risk（伴侶共同風險）：</strong>AR 單方帶因時應檢驗另一半；唯有<strong>雙方同基因帶因</strong>（AR 每次 25% 罹病）或<strong>女性為 XL 帶因</strong>（每次 50% 傳遞變異 X）才具顯著子代罹病風險 <span class="cite">SRC-003</span>。</li>
+                <li><strong>AR/AD 基因（3 項）：</strong>須由遺傳專家依具體位點評估隱性或顯性致病機制 <span class="cite">SRC-009</span>。</li>
+              </ul>
+            </div>
+            <div class="card card-top">
+              <h3>🟢 No Reportable Variant Detected（未檢出目標變異）</h3>
+              <ul>
+                <li>代表大幅降低成為受檢疾病帶因者的機率，<strong>但絕不代表零風險！</strong></li>
+                <li><strong>Residual Risk（殘餘風險）：</strong>單一疾病估算為 <code>族群帶因率 × (1 − 檢測率)</code>，<strong>任何疾病的殘餘風險永遠不會是零</strong>；多基因套組亦無法給出單一精確整體百分比 <span class="cite">SRC-003</span>。</li>
+                <li><strong>四大技術限制：</strong>無法偵測大片段缺失／插入／倒轉／重複擴增（如 <em>FMR1</em>）、非目標內含子變異、新發突變與染色體數目異常 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</li>
+              </ul>
+            </div>
+          </div>
+          <div class="callout callout-alert">
+            <strong>Genetic Counseling（遺傳諮詢）與不可逾越護欄：</strong>① <strong>ECS 陰性無法保證完全排除遺傳疾病風險</strong>，亦不能取代常規產檢與出生後<strong>新生兒篩檢</strong>；② 檢出高風險伴侶應透過遺傳諮詢評估自然懷孕搭配產前診斷、IVF 合併 PGT-M、配子受贈或領養等自主選項 <span class="cite">SRC-003</span> <span class="cite">SRC-006</span> <span class="cite">SRC-009</span>。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Wiki 來源：<code>concepts/residual-risk.md</code>、<code>faq/ecs-faq.md</code>、<code>products/ecs.md</code></span>
+          <span>Sources: SRC-003 (ACMG 2021), SRC-006, SRC-009</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: 5-QUESTION INTERACTIVE KNOWLEDGE QUIZ -->
+      <section class="slide" data-title="Slide 10：5 題互動觀念測驗">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 10 · Interactive Knowledge Quiz（5 題互動檢核）</span>
+          <div class="head-right">
+            <span class="status-badge">教學互動測驗</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>學習成果檢核：5 題快速確認核心觀念</h2>
+        <div class="slide-body">
+          <div class="quiz-shell" id="quiz-shell">
+            <div class="quiz-topbar">
+              <div class="quiz-tabs" id="quiz-tabs" role="tablist" aria-label="測驗題號切換"></div>
+              <span class="quiz-score-pill" id="quiz-score">已作答 0 / 5｜正確 0 題</span>
+            </div>
+            <p class="quiz-question" id="quiz-question"></p>
+            <div class="quiz-options-grid" id="quiz-options"></div>
+            <div class="quiz-feedback-box" id="quiz-feedback">請選擇一個答案以查看詳細解析與對應 Wiki 來源。</div>
+            <div class="quiz-actions">
+              <div style="display:flex;gap:8px;">
+                <button class="ctrl-btn" id="quiz-prev">← 上一題</button>
+                <button class="ctrl-btn" id="quiz-next">下一題 →</button>
+              </div>
+              <button class="ctrl-btn" id="quiz-reset">↺ 重新作答</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>本測驗僅於本機瀏覽器即時回饋，不記錄或上傳任何個人作答資料</span>
+          <span>所有解析均對應本專案 Persistent Wiki 與 SRC-003 / SRC-006 / SRC-009</span>
+        </div>
+      </section>
+
+      <!-- SLIDE 11: SUMMARY & REFERENCES -->
+      <section class="slide" data-title="Slide 11：核心總結、Wiki 連結與文獻來源">
+        <div class="slide-head">
+          <span class="kicker"><span class="dot"></span>Slide 11 · Summary &amp; References</span>
+          <div class="head-right">
+            <span class="status-badge">⚠ 衛教草稿｜待臨床審核</span>
+            <img src="../../assets/biolove-4.png" alt="BiOLOVE" class="head-logo" />
+          </div>
+        </div>
+        <h2>重點總結、延伸閱讀與可追溯文獻來源</h2>
+        <div class="slide-body">
+          <div class="grid-2" style="margin-bottom:10px;">
+            <div class="card card-brand">
+              <h3>🎯 5 大核心學習帶走重點</h3>
+              <ol>
+                <li><strong>健康父母仍可能是無症狀帶因者：</strong>單一隱性變異副本多不影響本人健康 <span class="cite">SRC-003</span>。</li>
+                <li><strong>認識理論遺傳機率：</strong>AR 雙帶因（<code>Aa × Aa</code>）每次懷孕理論機率為 25% AA / 50% Aa / 25% aa；XL 母親帶因有 50% 傳遞風險 <span class="cite">SRC-003</span>。</li>
+                <li><strong>ECS 屬自願孕前風險評估：</strong>ACMG 建議族群中立提供 Tier 3 資訊，孕前評估選擇最完整 <span class="cite">SRC-003</span>。</li>
+                <li><strong>看清 iGene 範圍與邊界：</strong>350 種疾病對應 351 獨立基因（含 28 個 XL 基因，不含 <em>FMR1</em>）；實驗室採 Thermo Fisher Ion Torrent / <code>530</code> 晶片，其餘未驗證技術參數待補 <span class="cite">SRC-009</span>。</li>
+                <li><strong>陰性不等於零風險：</strong>Residual Risk 永不為零，無法取代產檢與出生後新生兒篩檢 <span class="cite">SRC-003</span> <span class="cite">SRC-009</span>。</li>
+              </ol>
+            </div>
+            <div class="card card-soft" style="display:flex;flex-direction:column;justify-content:space-between;">
+              <div>
+                <h3>📚 文獻來源與本機 Wiki 連結</h3>
+                <ul style="font-size:11.6px;">
+                  <li><strong>[SRC-003] ACMG (2021)</strong> — Gregg AR et al. <em>Genetics in Medicine</em> 23(10):1793–1806. DOI: <code>10.1038/s41436-021-01203-z</code>（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8488021/" target="_blank" rel="noopener noreferrer">PMC8488021</a>｜擷取日 <code>2026-11-23</code>）</li>
+                  <li><strong>[SRC-006] ASRM (2023)</strong> — <em>Indications and management of PGT-M</em>. Fertil Steril 120(1):61–71. DOI: <code>10.1016/j.fertnstert.2023.03.003</code>（擷取日 <code>2026-11-23</code>）</li>
+                  <li><strong>[SRC-009] iGene 官方網站 (2026)</strong> — <a href="https://www.icryobank.com/gene/igene-disease-list" target="_blank" rel="noopener noreferrer">疾病列表</a>・<a href="https://www.icryobank.com/gene/igene" target="_blank" rel="noopener noreferrer">產品介紹</a>（擷取日 <code>2026-11-23</code>）</li>
+                </ul>
+                <div class="chip-row" style="margin-top:8px;">
+                  <a class="chip" href="../../wiki_browser/index.html#page/products/ecs.md">📖 Wiki：ECS 主頁</a>
+                  <a class="chip" href="../../wiki_browser/index.html#page/products/ecs-disease-gene-index.md">🧬 Wiki：350 疾病索引</a>
+                  <a class="chip" href="../../wiki_browser/index.html#page/concepts/residual-risk.md">📉 Wiki：Residual Risk</a>
+                  <a class="chip" href="../../wiki_browser/index.html#page/faq/ecs-faq.md">❓ Wiki：ECS FAQ</a>
+                </div>
+              </div>
+              <div style="text-align:center;margin-top:8px;">
+                <img src="../../assets/biolove-8.png" alt="BiOLOVE 明天的幸福・愛生育" style="max-height:36px;width:auto;" />
+              </div>
+            </div>
+          </div>
+          <div class="callout" style="margin-top:0;font-size:11.5px;">
+            <strong>衛教與審核聲明：</strong>本教材由 Reproductive Genetics &amp; Laboratory Wiki 編製，對應頁面目前標示為 <code>pending_clinical_review</code> / <code>pending_technical_verification</code>，尚未經授權醫師或實驗室主管簽核為正式臨床衛教發布版；任何個人檢測與醫療決策，請務必諮詢生殖醫學專科醫師或認證遺傳諮詢師。
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>資料擷取與編製日期：2026-11-23</span>
+          <span>Branch: <code>content/ecs-teaching-slides</code></span>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Controls -->
+    <footer class="controls" aria-label="簡報導覽控制列">
+      <div class="ctrl-group">
+        <button class="ctrl-btn" id="btn-prev" title="上一頁 (←)">← 上一頁</button>
+        <button class="ctrl-btn" id="btn-next" title="下一頁 (→)">下一頁 →</button>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <span class="counter" id="slide-counter">1 / 11</span>
+      </div>
+      <div class="ctrl-group">
+        <button class="ctrl-btn" id="btn-overview" title="投影片目錄 (G)">☷ 目錄</button>
+        <button class="ctrl-btn" id="btn-fullscreen" title="全螢幕 (F)">⛶ 全螢幕</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Slide Directory Modal -->
+  <div class="modal hidden" id="overview-modal" role="dialog" aria-modal="true" aria-label="簡報目錄總覽">
+    <div class="modal-sheet">
+      <div class="modal-head">
+        <h3>📑 簡報目錄總覽（共 11 頁）</h3>
+        <button class="ctrl-btn" id="btn-close-overview">關閉 (Esc)</button>
+      </div>
+      <div class="thumb-grid" id="thumb-grid"></div>
+    </div>
+  </div>
+
+  <script src="igene_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
