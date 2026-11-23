@@ -80,3 +80,11 @@
 - `wiki/concepts/monogenic-disease.md`
 - `wiki/concepts/haplotyping.md`
 - `wiki/concepts/allele-dropout.md`
+
+---
+
+## 五、Phase 2 衍生互動教學 HTML 簡報待審項目
+
+| 產出路徑 | 目前審核分層 | 依據之 Wiki 與來源 | 具體待審核項目 |
+| :--- | :--- | :--- | :--- |
+| `presentations/ecs-teaching-slides/index.html` | `source_verified`, `product_spec_verified`, `pending_clinical_review`, `pending_technical_verification` | `wiki/products/ecs.md`、`ecs-disease-gene-index.md`、`concepts/monogenic-disease.md`、`autosomal-recessive.md`、`x-linked-inheritance.md`、`residual-risk.md`、`genetic-counseling.md`、`evidence/ecs-clinical-evidence.md`、`laboratory/ngs-technology.md`、`faq/ecs-faq.md`（`SRC-003`, `SRC-006`, `SRC-009`） | 1. 覆核 11 頁初學者衛教口徑、Aa × Aa 互動棋盤說明、X-linked 親代對照（含 `GAP-02` 父親傳遞補充）與 5 題測驗解析。<br>2. 確認 *FMR1* 未收錄於 iGene 350 項清單之衛教提醒表述。<br>3. 待實驗室補齊正式 ECS Coverage、分析靈敏度／特異度、TAT 與有效認證文件後，由授權醫師／實驗室主管核准方可合併至 `main` 或對外發布。 |

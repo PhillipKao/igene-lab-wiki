@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "stats": {
-    "run_at": "2026-11-23T10:17:33Z",
+    "run_at": "2026-11-23T11:50:33Z",
     "raw_sources_total": 9,
     "raw_sources_ingested": 9,
     "raw_sources_sha256_verified": 9,
