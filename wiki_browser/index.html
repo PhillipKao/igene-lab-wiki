@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reproductive Genetics &amp; Laboratory Wiki — 生殖遺傳與實驗室知識庫</title>
+  <link rel="icon" type="image/png" href="../assets/biolove-2.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="menu-toggle" class="icon-btn" aria-label="切換側邊導覽" title="切換側邊導覽">☰</button>
+      <a href="#home" class="brand-link" id="brand-home-link">
+        <img src="../assets/biolove-3.png" alt="BiOLOVE 愛生育生物科技" class="brand-logo" />
+        <span class="brand-divider"></span>
+        <span class="brand-subtitle">Reproductive Genetics Wiki</span>
+      </a>
+    </div>
+    <div class="topbar-search">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="搜尋主題、檢測產品、術語或來源（如 PGT-A、Mosaic、Residual Risk、SRC-001）..."
+        aria-label="搜尋 Wiki 知識庫"
+      />
+      <div id="search-results" class="search-dropdown hidden" role="listbox"></div>
+    </div>
+    <nav class="topbar-quick-nav" aria-label="主要產品快捷入口">
+      <a href="#page/products/pgt-a.md" class="pill-link">PGT-A</a>
+      <a href="#page/products/ecs.md" class="pill-link">ECS</a>
+      <a href="#page/products/pgt-sr.md" class="pill-link">PGT-SR</a>
+      <a href="#page/products/pgt-m.md" class="pill-link">PGT-M</a>
+      <a href="#sources" class="pill-link pill-muted">文獻來源</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar" aria-label="知識分類導覽">
+      <div class="sidebar-inner">
+        <div class="nav-group">
+          <a href="#home" class="nav-item nav-home" data-route="home">🏠 知識庫首頁</a>
+          <a href="#page/products/ecs-disease-gene-index.md" class="nav-item" data-route="igene-explorer">🧬 iGene 350 項疾病／基因檢索</a>
+          <a href="#sources" class="nav-item" data-route="sources">📚 原始文獻來源庫（SRC-001–009）</a>
+          <a href="#log" class="nav-item" data-route="log">📝 Wiki 編修與 Ingest 日誌</a>
+        </div>
+        <div id="category-nav"></div>
+        <div class="sidebar-footer">
+          <img src="../assets/biolove-4.png" alt="BiOLOVE" class="sidebar-footer-logo" />
+          <p class="sidebar-note">Persistent LLM Wiki · Phase 1<br />暖橘色醫學衛教知識庫</p>
+        </div>
+      </div>
+    </aside>
+
+    <div id="sidebar-backdrop" class="sidebar-backdrop hidden"></div>
+
+    <main id="main-content" class="main-content" tabindex="-1">
+      <!-- Dynamic view rendered by app.js -->
+    </main>
+  </div>
+
+  <script src="wiki_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

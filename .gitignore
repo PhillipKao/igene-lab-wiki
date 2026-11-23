@@ -1,0 +1,81 @@
+# ==============================================================================
+# Reproductive Genetics & Laboratory Wiki — .gitignore
+# 保護原則：嚴禁提交金鑰、患者個資、敏感內部文件與不允許再散布之第三方文獻全文；
+# 明確保留 AGENTS.md、README.md、wiki/、raw/metadata/、raw/registry.json、
+# raw/structured/、logs/、assets/、workflows/ 與 wiki_browser/。
+# ==============================================================================
+
+# 1. API Keys, Secrets, Credentials & Environment Files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*token*
+*credentials*.json
+*apikey*
+
+# 2. Patient PII & Un-deidentified Clinical Data (嚴禁入庫)
+patient_data/
+clinical_records/
+pii/
+*patient_export*
+*unredacted*
+*phi*
+
+# 3. Sensitive Internal / Confidential Documents (未經授權不得入庫)
+confidential/
+internal_sensitive/
+private_sop/
+validation_reports_private/
+*.xlsx
+*.xls
+*.docx
+
+# 4. Copyrighted / Non-Redistributable Third-Party Full-Text Literature
+# 保留本機檔案供 workflows/lint_wiki.py 進行 SHA-256 驗證，但不提交至 Git：
+# - SRC-001, SRC-002, SRC-006: © ASRM / Fertility and Sterility (All rights reserved)
+# - SRC-003: ACMG / Genetics in Medicine Author Manuscript (Publisher copyright)
+# - SRC-004, SRC-005, SRC-007, SRC-008: ESHRE 2020 (CC BY-NC 4.0 Non-Commercial)
+# 注意：公司官方來源 raw/sources/SRC-009.md、raw/metadata/、raw/registry.json 與
+# raw/structured/ 仍由 Git 正常追蹤。
+raw/sources/SRC-001.md
+raw/sources/SRC-002.md
+raw/sources/SRC-003.md
+raw/sources/SRC-004.md
+raw/sources/SRC-005.md
+raw/sources/SRC-006.md
+raw/sources/SRC-007.md
+raw/sources/SRC-008.md
+raw/sources/restricted/
+raw/pdfs/
+*.pdf
+
+# 5. Temporary, Cache & OS Metadata Files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.bak
+*.swp
+*~
+.venv/
+venv/
+node_modules/
+
+# 6. IDE / Editor Local Settings
+.vscode/
+.idea/
+*.sublime-*
+
+# 注意：切勿排除 logs/ 目錄（保留 asset_audit.md、ingest_report.json、
+# lint_report.md、lint_report.json 與 human_review_queue.md）。

@@ -1,0 +1,42 @@
+{
+  "source_id": "SRC-005",
+  "expected_title": "ESHRE PGT Consortium good practice recommendations for the detection of monogenic disorders",
+  "retrieved_title": "ESHRE PGT Consortium good practice recommendations for the detection of monogenic disorders†",
+  "organization": "ESHRE",
+  "year": 2020,
+  "authors": [
+    "ESHRE PGT-M Working Group",
+    "Filipa Carvalho",
+    "Céline Moutou",
+    "Eftychia Dimitriadou",
+    "Jos Dreesen",
+    "Carles Giménez",
+    "Veerle Goossens",
+    "Georgia Kakourou",
+    "Nathalie Vermeulen",
+    "Daniela Zuccarello",
+    "Martine De Rycke"
+  ],
+  "journal": "Human Reproduction Open",
+  "doi": "10.1093/hropen/hoaa018",
+  "pmid": "32500103",
+  "pmcid": "PMC7257022",
+  "url": "https://academic.oup.com/hropen/article/2020/3/hoaa018/5848301",
+  "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC7257022&retmode=xml",
+  "retrieval_method": "ncbi_pmc_eutilities_jats_xml",
+  "http_status": 403,
+  "retrieved_at": "2026-11-23T08:09:51Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "PGT-M",
+    "Monogenic Disease",
+    "Haplotyping",
+    "Allele Dropout",
+    "Technical Validation"
+  ],
+  "status": "ingested",
+  "reason": "Primary URL returned HTTP 403. Full Open Access JATS XML retrieved via official NCBI PMC E-utilities (PMC7257022).",
+  "raw_file": "raw/sources/SRC-005.md",
+  "sha256": "de3d4b9bd3137527cfb85572561e79cda4b9e6269e58ba7fc9c86cefc2a138cd",
+  "char_count": 82903
+}

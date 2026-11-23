@@ -1,0 +1,40 @@
+{
+  "source_id": "SRC-003",
+  "expected_title": "Screening for autosomal recessive and X-linked conditions during pregnancy and preconception: a practice resource of the American College of Medical Genetics and Genomics",
+  "retrieved_title": "Screening for autosomal recessive and X-linked conditions during pregnancy and preconception: a practice resource of the American College of Medical Genetics and Genomics (ACMG)",
+  "organization": "ACMG",
+  "year": 2021,
+  "authors": [
+    "Anthony R Gregg",
+    "Mahmoud Aarabi",
+    "Susan Klugman",
+    "Natalia T Leach",
+    "Michael T Bashford",
+    "Tamar Goldwaser",
+    "Emily Chen",
+    "Teresa N Sparks",
+    "Honey V Reddi",
+    "Aleksandar Rajkovic",
+    "Jeffrey S Dungan",
+    "ACMG Professional Practice and Guidelines Committee"
+  ],
+  "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+  "doi": "10.1038/s41436-021-01203-z",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8488021/",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8488021/",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:05:59Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "ECS",
+    "Autosomal Recessive",
+    "X-linked Inheritance",
+    "Residual Risk",
+    "Genetic Counseling"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text successfully retrieved.",
+  "raw_file": "raw/sources/SRC-003.md",
+  "sha256": "fe2db196d3b2bf4ad3a7b663e1f6f92946f45a0e96da33f45ff672e0323e49ef",
+  "char_count": 82547
+}

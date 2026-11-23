@@ -1,0 +1,43 @@
+{
+  "source_id": "SRC-008",
+  "expected_title": "ESHRE PGT Consortium and SIG Embryology good practice recommendations for polar body and embryo biopsy for PGT",
+  "retrieved_title": "ESHRE PGT Consortium and SIG Embryology good practice recommendations for polar body and embryo biopsy for PGT",
+  "organization": "ESHRE",
+  "year": 2020,
+  "authors": [
+    "ESHRE PGT Consortium and SIG-Embryology Biopsy Working Group",
+    "Georgia Kokkali",
+    "Giovanni Coticchio",
+    "Fernando Bronet",
+    "Catherine Celebi",
+    "Danilo Cimadomo",
+    "Veerle Goossens",
+    "Joanna Liss",
+    "Sofia Nunes",
+    "Ioannis Sfontouris",
+    "Nathalie Vermeulen",
+    "Elena Zakharova",
+    "Martine De Rycke"
+  ],
+  "journal": "Human reproduction open (2020); 2020(3):hoaa020",
+  "doi": "10.1093/hropen/hoaa020",
+  "pmid": "32500104",
+  "pmcid": "PMC7257009",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257009/",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257009/",
+  "retrieval_method": "primary_url",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:09:51Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "Embryo Biopsy",
+    "Trophectoderm Biopsy",
+    "Sample Handling",
+    "Limitations"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text retrieved directly from primary URL.",
+  "raw_file": "raw/sources/SRC-008.md",
+  "sha256": "20e2b43de70980755e5fcbc96509f4cbb3d92ff412536a6620c5541b88c57c60",
+  "char_count": 59894
+}

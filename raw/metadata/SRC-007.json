@@ -1,0 +1,40 @@
+{
+  "source_id": "SRC-007",
+  "expected_title": "ESHRE PGT Consortium good practice recommendations for the organisation of PGT",
+  "retrieved_title": "ESHRE PGT Consortium good practice recommendations for the organisation of PGT",
+  "organization": "ESHRE",
+  "year": 2020,
+  "authors": [
+    "ESHRE PGT Consortium Steering Committee",
+    "Filipa Carvalho",
+    "Edith Coonen",
+    "Veerle Goossens",
+    "Georgia Kokkali",
+    "Carmen Rubio",
+    "Madelon Meijer-Hoogeveen",
+    "Céline Moutou",
+    "Nathalie Vermeulen",
+    "Martine De Rycke"
+  ],
+  "journal": "Human reproduction open (2020); 2020(3):hoaa021",
+  "doi": "10.1093/hropen/hoaa021",
+  "pmid": "32524036",
+  "pmcid": "PMC7257038",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257038/",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257038/",
+  "retrieval_method": "primary_url",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:11:25Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "Laboratory Overview",
+    "Quality Management",
+    "Sample Traceability",
+    "PGT Workflow"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text retrieved directly from primary URL.",
+  "raw_file": "raw/sources/SRC-007.md",
+  "sha256": "81e9ca54f25b9ead5e838a7672d4a54e46067de38169ecc942b137c551741ad7",
+  "char_count": 67314
+}

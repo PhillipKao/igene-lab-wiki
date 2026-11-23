@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-002",
+  "expected_title": "Clinical management of mosaic results from preimplantation genetic testing for aneuploidy of blastocysts: a committee opinion",
+  "retrieved_title": "Clinical management of mosaic results from preimplantation genetic testing for aneuploidy of blastocysts: a committee opinion (2023)",
+  "organization": "ASRM",
+  "year": 2023,
+  "authors": [
+    "Practice Committees of the American Society for Reproductive Medicine and the Genetic Counseling Professional Group. Electronic address: asrm@asrm.org"
+  ],
+  "journal": "Fertility and sterility (2023); 120(5):973-982",
+  "doi": "10.1016/j.fertnstert.2023.08.969",
+  "pmid": "37678731",
+  "pmcid": "",
+  "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/clinical-management-of-mosaic-results-from-preimplantation-genetic-testing-for-aneuploidy-pgt-a-of-blastocysts-a-committee-opinion/",
+  "final_url": "https://www.asrm.org/practice-guidance/practice-committee-documents/clinical-management-of-mosaic-results-from-preimplantation-genetic-testing-for-aneuploidy-pgt-a-of-blastocysts-a-committee-opinion/",
+  "retrieval_method": "primary_url",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:09:51Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "Mosaicism",
+    "PGT-A",
+    "Genetic Counseling",
+    "Clinical Management"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text retrieved directly from primary URL.",
+  "raw_file": "raw/sources/SRC-002.md",
+  "sha256": "1919d91f50eee84a0194894eb66dc488b90f7e57faba4a775b7fd0e31ba0f8bf",
+  "char_count": 60499
+}

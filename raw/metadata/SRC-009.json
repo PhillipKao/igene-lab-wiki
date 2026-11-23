@@ -1,0 +1,48 @@
+{
+  "source_id": "SRC-009",
+  "source_type": "Official Company Website",
+  "expected_title": "愛生育銀行／送子鳥生殖中心 — iGene 遺傳疾病帶因篩檢列表與產品介紹",
+  "retrieved_title": "基因診斷-iGene遺傳疾病帶因篩檢列表 & 愛基因(iGene)產品介紹 | 愛生育銀行．送子鳥生殖中心",
+  "organization": "愛生育銀行／送子鳥生殖中心（BiOLOVE / Stork Fertility Center）",
+  "year": 2026,
+  "authors": [
+    "愛生育銀行／送子鳥生殖中心"
+  ],
+  "journal": "Official Company Website",
+  "doi": "",
+  "pmid": "",
+  "pmcid": "",
+  "url": "https://www.icryobank.com/gene/igene-disease-list",
+  "secondary_urls": [
+    "https://www.icryobank.com/gene/igene"
+  ],
+  "final_url": "https://www.icryobank.com/gene/igene-disease-list",
+  "retrieval_method": "official_company_website_curl",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:57:46Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "ECS",
+    "iGene",
+    "NGS",
+    "Autosomal Recessive",
+    "X-linked Inheritance",
+    "Residual Risk",
+    "Disease Gene List"
+  ],
+  "status": "ingested",
+  "reason": "Successfully retrieved official iGene product intro and full disease table (350 disease rows, 351 unique genes, 15 primary categories).",
+  "raw_file": "raw/sources/SRC-009.md",
+  "structured_files": [
+    {
+      "path": "raw/structured/igene_disease_list.csv",
+      "sha256": "fd9b30fef7c5e007aa1a9765fae51ea58592c666e2e9c49bffc0574af8f90882"
+    },
+    {
+      "path": "raw/structured/igene_disease_list.json",
+      "sha256": "4855a82f21fa584b03d0b38e77c137c9686cdbbc8e891e8f140fff291af79bd4"
+    }
+  ],
+  "sha256": "6237d4d8f95e78f7353458162521b5190acc1ba453fbf2330617cfd0114751c1",
+  "char_count": 4250
+}

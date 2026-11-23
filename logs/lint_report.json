@@ -1,0 +1,280 @@
+{
+  "status": "PASS",
+  "stats": {
+    "run_at": "2026-11-23T10:17:33Z",
+    "raw_sources_total": 9,
+    "raw_sources_ingested": 9,
+    "raw_sources_sha256_verified": 9,
+    "wiki_pages_total": 34,
+    "wiki_pages_by_category": {
+      "products": 5,
+      "concepts": 13,
+      "evidence": 4,
+      "laboratory": 5,
+      "faq": 7
+    },
+    "internal_links_checked": 602,
+    "image_links_checked": 2,
+    "citations_checked": 266,
+    "pending_review_pages": [
+      {
+        "page": "wiki/products/ecs-disease-gene-index.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "ECS Disease & Gene Index（iGene 350 項遺傳疾病與 351 個基因結構化索引）"
+      },
+      {
+        "page": "wiki/products/ecs.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "ECS（擴展性帶因者篩檢 / iGene 遺傳疾病帶因篩檢）"
+      },
+      {
+        "page": "wiki/products/pgt-a.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "PGT-A（胚胎著床前染色體非整倍體篩檢 / Preimplantation Genetic Testing for Aneuploidy）"
+      },
+      {
+        "page": "wiki/products/pgt-m.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "PGT-M（胚胎著床前單基因遺傳疾病檢測 / Preimplantation Genetic Testing for Monogenic Conditions）"
+      },
+      {
+        "page": "wiki/products/pgt-sr.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "PGT-SR（胚胎著床前染色體結構重排檢測 / Preimplantation Genetic Testing for Structural Rearrangements）"
+      },
+      {
+        "page": "wiki/concepts/autosomal-recessive.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review"
+        ],
+        "title": "Autosomal Recessive（體染色體隱性遺傳）"
+      },
+      {
+        "page": "wiki/concepts/embryo-biopsy.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Embryo Biopsy（胚胎切片與囊胚滋養外胚層切片）"
+      },
+      {
+        "page": "wiki/concepts/genetic-counseling.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Genetic Counseling（生殖遺傳諮詢）"
+      },
+      {
+        "page": "wiki/concepts/mosaicism.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Mosaicism（染色體鑲嵌型）"
+      },
+      {
+        "page": "wiki/concepts/residual-risk.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review"
+        ],
+        "title": "Residual Risk（殘餘風險）"
+      },
+      {
+        "page": "wiki/concepts/x-linked-inheritance.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review"
+        ],
+        "title": "X-linked Inheritance（X 染色體性聯遺傳）"
+      },
+      {
+        "page": "wiki/evidence/ecs-clinical-evidence.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "擴展性帶因者篩檢（ECS）分層架構與臨床實證整合（ACMG 2021）"
+      },
+      {
+        "page": "wiki/evidence/mosaic-embryo-evidence.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Mosaic 胚胎臨床處置與風險評估證據整合（ASRM 2023 / ESHRE 2020）"
+      },
+      {
+        "page": "wiki/evidence/pgt-a-clinical-evidence.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "PGT-A 臨床證據與跨指引整合（ASRM 2024 / ASRM 2023 / ESHRE 2020）"
+      },
+      {
+        "page": "wiki/evidence/pgt-m-sr-evidence.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "PGT-M 與 PGT-SR 國際指引與技術實證整合（ASRM 2023 / ESHRE 2020）"
+      },
+      {
+        "page": "wiki/laboratory/laboratory-overview.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "Laboratory Overview（生殖遺傳檢測實驗室概覽與技術架構）"
+      },
+      {
+        "page": "wiki/laboratory/ngs-technology.md",
+        "status": "pending_technical_verification",
+        "layers": [
+          "source_verified",
+          "pending_technical_verification",
+          "pending_clinical_review"
+        ],
+        "title": "NGS Technology（次世代定序技術與本實驗室 Ion Torrent 平台分產品規格管理）"
+      },
+      {
+        "page": "wiki/laboratory/pgt-workflow.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "PGT Workflow（PGT 檢測端到端標準作業流程）"
+      },
+      {
+        "page": "wiki/laboratory/quality-management.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Quality Management（實驗室品質管理與風險控管）"
+      },
+      {
+        "page": "wiki/laboratory/sample-traceability.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "Sample Traceability（檢體標示、雙人見證與全程追溯）"
+      },
+      {
+        "page": "wiki/faq/ecs-faq.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review",
+          "pending_technical_verification"
+        ],
+        "title": "FAQ：ECS / iGene 遺傳疾病帶因篩檢與 NGS 實驗室常見問題"
+      },
+      {
+        "page": "wiki/faq/faq-ecs-negative-risk.md",
+        "status": "pending_clinical_review",
+        "layers": [
+          "source_verified",
+          "product_spec_verified",
+          "pending_clinical_review"
+        ],
+        "title": "FAQ：擴展性帶因者篩檢（ECS）結果陰性，代表寶寶完全不會得遺傳病嗎？"
+      },
+      {
+        "page": "wiki/faq/faq-embryo-biopsy-safety.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "FAQ：胚胎切片（Embryo Biopsy）會傷害胚胎嗎？為什麼切片後通常要先冷凍？"
+      },
+      {
+        "page": "wiki/faq/faq-mosaic-embryo-transfer.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "FAQ：胚胎報告顯示 Mosaic（鑲嵌型），還能植入嗎？"
+      },
+      {
+        "page": "wiki/faq/faq-pgt-a-guarantee-pregnancy.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "FAQ：做 PGT-A 可以保證懷孕或一定能降低流產率嗎？"
+      },
+      {
+        "page": "wiki/faq/faq-pgt-a-vs-pgt-sr-vs-pgt-m.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "FAQ：PGT-A、PGT-SR 與 PGT-M 有什麼差別？我需要做哪一種？"
+      },
+      {
+        "page": "wiki/faq/faq-prenatal-testing-after-pgt.md",
+        "status": "pending_clinical_review",
+        "layers": [],
+        "title": "FAQ：已經做了 PGT-A、PGT-SR 或 PGT-M，懷孕後還需要做產前檢查嗎？"
+      }
+    ],
+    "auto_compiled_pages": [
+      {
+        "page": "wiki/concepts/allele-dropout.md",
+        "status": "auto_compiled",
+        "title": "Allele Dropout（等位基因脫落 / ADO）"
+      },
+      {
+        "page": "wiki/concepts/aneuploidy.md",
+        "status": "auto_compiled",
+        "title": "Aneuploidy（染色體非整倍體）"
+      },
+      {
+        "page": "wiki/concepts/copy-number-variation.md",
+        "status": "auto_compiled",
+        "title": "Copy Number Variation（拷貝數變異 / CNV）"
+      },
+      {
+        "page": "wiki/concepts/euploidy.md",
+        "status": "auto_compiled",
+        "title": "Euploidy（染色體整倍體）"
+      },
+      {
+        "page": "wiki/concepts/haplotyping.md",
+        "status": "auto_compiled",
+        "title": "Haplotyping（單倍型分析／連鎖分析）"
+      },
+      {
+        "page": "wiki/concepts/monogenic-disease.md",
+        "status": "auto_compiled",
+        "title": "Monogenic Disease（單基因遺傳疾病）"
+      },
+      {
+        "page": "wiki/concepts/structural-chromosomal-rearrangement.md",
+        "status": "auto_compiled",
+        "title": "Structural Chromosomal Rearrangement（染色體結構重排）"
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}

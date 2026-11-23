@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-001",
+  "expected_title": "The use of preimplantation genetic testing for aneuploidy: a committee opinion",
+  "retrieved_title": "The use of preimplantation genetic testing for aneuploidy: a committee opinion (2024)",
+  "organization": "ASRM",
+  "year": 2024,
+  "authors": [
+    "Practice Committees of the American Society for Reproductive Medicine and the Society for Assisted Reproductive Technology. Electronic address: asrm@asrm.org"
+  ],
+  "journal": "Fertility and sterility (2024); 122(3):421-434",
+  "doi": "10.1016/j.fertnstert.2024.04.013",
+  "pmid": "38762806",
+  "pmcid": "",
+  "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024/",
+  "final_url": "https://www.asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024/",
+  "retrieval_method": "primary_url",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:09:51Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "PGT-A",
+    "Aneuploidy",
+    "Clinical Evidence",
+    "Limitations"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text retrieved directly from primary URL.",
+  "raw_file": "raw/sources/SRC-001.md",
+  "sha256": "9aed4f31f595adaabba3c78152d2dc02a603fee7c9ecdf9b229f32660091ec69",
+  "char_count": 135702
+}

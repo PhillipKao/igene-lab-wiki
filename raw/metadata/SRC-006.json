@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-006",
+  "expected_title": "Indications and management of preimplantation genetic testing for monogenic conditions: a committee opinion",
+  "retrieved_title": "Indications and management of preimplantation genetic testing for monogenic conditions: a committee opinion (2023)",
+  "organization": "ASRM",
+  "year": 2023,
+  "authors": [
+    "Practice Committee and Genetic Counseling Professional Group of the American Society for Reproductive Medicine, American Society for Reproductive Medicine, Washington, D.C.. Electronic address: asrm@asrm.org"
+  ],
+  "journal": "Fertility and sterility (2023); 120(1):61-71",
+  "doi": "10.1016/j.fertnstert.2023.03.003",
+  "pmid": "37162432",
+  "pmcid": "",
+  "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/indications-and-management-of-preimplantation-genetic-testing-for-monogenic-conditions-a-committee-opinion-2023/",
+  "final_url": "https://www.asrm.org/practice-guidance/practice-committee-documents/indications-and-management-of-preimplantation-genetic-testing-for-monogenic-conditions-a-committee-opinion-2023/",
+  "retrieval_method": "primary_url",
+  "http_status": 200,
+  "retrieved_at": "2026-11-23T08:09:51Z",
+  "retrieved_date": "2026-11-23",
+  "topics": [
+    "PGT-M",
+    "Indications",
+    "Genetic Counseling",
+    "Clinical Decision Making"
+  ],
+  "status": "ingested",
+  "reason": "Full or substantial article text retrieved directly from primary URL.",
+  "raw_file": "raw/sources/SRC-006.md",
+  "sha256": "977b6051334b03c62a6546f9cfb049f9f6e5d388332e20b2b14abe4b2f0b15e8",
+  "char_count": 65403
+}

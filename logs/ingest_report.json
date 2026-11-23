@@ -1,0 +1,90 @@
+{
+  "run_at": "2026-11-23T08:57:46Z",
+  "total": 9,
+  "ingested": 9,
+  "partially_retrieved": 0,
+  "failed": 0,
+  "results": [
+    {
+      "source_id": "SRC-001",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 135702,
+      "doi": "10.1016/j.fertnstert.2024.04.013",
+      "sha256": "9aed4f31f595adaabba3c78152d2dc02a603fee7c9ecdf9b229f32660091ec69",
+      "reason": "Full or substantial article text retrieved directly from primary URL."
+    },
+    {
+      "source_id": "SRC-002",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 60499,
+      "doi": "10.1016/j.fertnstert.2023.08.969",
+      "sha256": "1919d91f50eee84a0194894eb66dc488b90f7e57faba4a775b7fd0e31ba0f8bf",
+      "reason": "Full or substantial article text retrieved directly from primary URL."
+    },
+    {
+      "source_id": "SRC-003",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 82547,
+      "doi": "10.1038/s41436-021-01203-z",
+      "sha256": "fe2db196d3b2bf4ad3a7b663e1f6f92946f45a0e96da33f45ff672e0323e49ef",
+      "reason": "Full or substantial article text successfully retrieved."
+    },
+    {
+      "source_id": "SRC-004",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 112572,
+      "doi": "10.1093/hropen/hoaa017",
+      "sha256": "2d97ad74b549cb3895dcca7e76e4a220264fb4deaafebb3ef8eb6a47012ed2b1",
+      "reason": "Full or substantial article text successfully retrieved."
+    },
+    {
+      "source_id": "SRC-005",
+      "status": "ingested",
+      "http_status": 403,
+      "char_count": 82903,
+      "doi": "10.1093/hropen/hoaa018",
+      "sha256": "de3d4b9bd3137527cfb85572561e79cda4b9e6269e58ba7fc9c86cefc2a138cd",
+      "reason": "Primary URL returned HTTP 403. Full Open Access JATS XML retrieved via official NCBI PMC E-utilities (PMC7257022)."
+    },
+    {
+      "source_id": "SRC-006",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 65403,
+      "doi": "10.1016/j.fertnstert.2023.03.003",
+      "sha256": "977b6051334b03c62a6546f9cfb049f9f6e5d388332e20b2b14abe4b2f0b15e8",
+      "reason": "Full or substantial article text retrieved directly from primary URL."
+    },
+    {
+      "source_id": "SRC-007",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 67314,
+      "doi": "10.1093/hropen/hoaa021",
+      "sha256": "81e9ca54f25b9ead5e838a7672d4a54e46067de38169ecc942b137c551741ad7",
+      "reason": "Full or substantial article text retrieved directly from primary URL."
+    },
+    {
+      "source_id": "SRC-008",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 59894,
+      "doi": "10.1093/hropen/hoaa020",
+      "sha256": "20e2b43de70980755e5fcbc96509f4cbb3d92ff412536a6620c5541b88c57c60",
+      "reason": "Full or substantial article text retrieved directly from primary URL."
+    },
+    {
+      "source_id": "SRC-009",
+      "status": "ingested",
+      "http_status": 200,
+      "char_count": 4250,
+      "doi": "",
+      "sha256": "6237d4d8f95e78f7353458162521b5190acc1ba453fbf2330617cfd0114751c1",
+      "reason": "Successfully retrieved official iGene product intro and full disease table (350 disease rows, 351 unique genes, 15 primary categories)."
+    }
+  ]
+}
